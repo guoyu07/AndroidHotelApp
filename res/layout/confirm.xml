@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_rootPwdChng"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+   android:gravity="center_horizontal"
+    android:padding="10dp" ><!--
+
+    <TextView
+        android:id="@+id/tvMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you sure to reset the mapping" />
+
+    --><Button
+        android:id="@+id/ok1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes" />
+
+    <Button
+        android:id="@+id/cancel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ok1"
+        android:text="No" />
+
+</RelativeLayout>

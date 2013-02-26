@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topMostRelLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rlytViewPager"
+        android:layout_width="400px"
+        android:layout_height="wrap_content" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/IconsPager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/IconsPager" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlytTxtViews"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/seperateTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="420px"
+            android:background="@drawable/txtview_bg_gradient1"
+            android:padding="@dimen/tvInsideMargin"
+            android:text="@string/tvcd1"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:id="@+id/seperateTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="420px"
+            android:layout_marginTop="70px"
+            android:background="@drawable/txtview_bg_gradient2"
+            android:padding="@dimen/tvInsideMargin"
+            android:text="@string/tvcd2"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:id="@+id/seperateTextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="420px"
+            android:layout_marginTop="140px"
+            android:background="@drawable/txtview_bg_gradient3"
+            android:padding="@dimen/tvInsideMargin"
+            android:text="@string/tvcd3"
+            android:textColor="@color/SteelBlue"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:id="@+id/seperateTextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="420px"
+            android:layout_marginTop="210px"
+            android:background="@drawable/txtview_bg_gradient1"
+            android:padding="@dimen/tvInsideMargin"
+            android:text="@string/tvcd4"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:id="@+id/seperateTextView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="420px"
+            android:layout_marginTop="280px"
+            android:background="@drawable/txtview_bg_gradient5"
+            android:padding="@dimen/tvInsideMargin"
+            android:text="@string/tvcd5"
+            android:textColor="@color/MediumOrchid1"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:id="@+id/seperateTextView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="420px"
+            android:layout_marginTop="350px"
+            android:background="@drawable/txtview_bg_gradient5"
+            android:padding="@dimen/tvInsideMargin"
+            android:text="@string/tvcd6"
+            android:textColor="@color/SteelBlue"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:id="@+id/seperateTextView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="420px"
+            android:layout_marginTop="420px"
+            android:background="@drawable/txtview_bg_gradient3"
+            android:padding="@dimen/tvInsideMargin"
+            android:text="@string/tvcd7"
+            android:textColor="@color/SteelBlue"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:id="@+id/seperateTextView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="420px"
+            android:layout_marginTop="490px"
+            android:background="@drawable/txtview_bg_gradient5"
+            android:padding="@dimen/tvInsideMargin"
+            android:text="@string/tvcd8"
+            android:textColor="@color/MediumOrchid1"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:id="@+id/seperateTextView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="420px"
+            android:layout_marginTop="560px"
+            android:background="@drawable/txtview_bg_gradient2"
+            android:padding="@dimen/tvInsideMargin"
+            android:text="@string/tvcd9"
+            android:textSize="@dimen/font_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlytDeleteBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rlytTxtViews" >
+
+        <ImageButton
+            android:id="@+id/imgDeleteBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/deletebtn" />
+
+        <Button
+            android:id="@+id/btnSaveMapping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200px"
+            android:layout_marginTop="10px"
+            android:layout_toRightOf="@id/imgDeleteBtn"
+            android:drawableLeft="@drawable/save1"
+            android:text="@string/btnSaveMapping"
+            android:textSize="20px"
+            android:textStyle="bold" />
+
+        <!--
+        <Button
+            android:id="@+id/btnSaveMapping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200px"
+            android:layout_marginTop="10px"
+            android:layout_toRightOf="@id/imgDeleteBtn"
+            android:gravity="right"
+            android:paddingTop="15px"
+            android:text="@string/btnSaveMapping" />
+        -->
+    </RelativeLayout>
+    <!--
+    <RelativeLayout
+        android:id="@+id/rlytTxtViews"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/seperateTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="420px"
+            android:background="@drawable/txtview_bg_gradient2"
+            android:padding="@dimen/tvInsideMargin"
+            android:text="@string/Comp1"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:id="@+id/seperateTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="420px"
+            android:layout_marginTop="60px"
+            android:background="@drawable/txtview_bg_gradient1"
+            android:padding="@dimen/tvInsideMargin"
+            android:text="@string/Ac1"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:id="@+id/seperateTextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="420px"
+            android:layout_marginTop="120px"
+            android:background="@drawable/txtview_bg_gradient2"
+            android:padding="@dimen/tvInsideMargin"
+            android:text="@string/Comp1"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:id="@+id/seperateTextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="420px"
+            android:layout_marginTop="180px"
+            android:background="@drawable/txtview_bg_gradient4"
+            android:padding="@dimen/tvInsideMargin"
+            android:text="@string/Fan1"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:id="@+id/seperateTextView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="420px"
+            android:layout_marginTop="240px"
+            android:background="@drawable/txtview_bg_gradient1"
+            android:padding="@dimen/tvInsideMargin"
+            android:text="@string/Ac1"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:id="@+id/seperateTextView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="420px"
+            android:layout_marginTop="300px"
+            android:background="@drawable/txtview_bg_gradient2"
+            android:padding="@dimen/tvInsideMargin"
+            android:text="@string/Comp1"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:id="@+id/seperateTextView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="420px"
+            android:layout_marginTop="360px"
+            android:background="@drawable/txtview_bg_gradient4"
+            android:padding="@dimen/tvInsideMargin"
+            android:text="@string/Fan1"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:id="@+id/seperateTextView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="420px"
+            android:layout_marginTop="420px"
+            android:background="@drawable/txtview_bg_gradient2"
+            android:padding="@dimen/tvInsideMargin"
+            android:text="@string/Comp1"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:id="@+id/seperateTextView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="420px"
+            android:layout_marginTop="480px"
+            android:background="@drawable/txtview_bg_gradient4"
+            android:padding="@dimen/tvInsideMargin"
+            android:text="@string/Fan1"
+            android:textSize="@dimen/font_size" />
+    </RelativeLayout>
+    -->
+
+</RelativeLayout>

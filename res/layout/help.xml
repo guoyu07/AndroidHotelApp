@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+android:id="@+id/LinearLayout01" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_margin="25px"
+>
+<TextView
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:textSize="20dip"
+
+android:scrollbars="vertical"
+android:text=" Help  \n This Application will Helps ,\n you to operate the devices in room.
+ \n Based on configuration of devices\n you can interact with the devices.\n\n
+Application Developed By:\n Reddy Prasad . P\n" />
+	
+</RelativeLayout>
+

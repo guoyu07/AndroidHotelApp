@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ViewPagerExActivity!</string>
+    <string name="app_name">Hotel Application</string>
+    <string name="firstleft">Frist Viewpager Left Slide</string>
+    <string name="firstmiddle">Frist Viewpager Middle Slide</string>
+    <string name="firstright">Frist Viewpager Right Slide</string>
+    <string name="secondleft">Second Viewpager Left Slide</string>
+    <string name="secondmiddle">Second Viewpager Middle Slide</string>
+    <string name="secondright">Second Viewpager Right Slide</string>
+    <string name="lblTxtSize">15px</string>
+    <string name="Fan1">Fan 1</string>
+    <string name="Ac1">Ac 1</string>
+    <string name="Player1">Player 1</string>
+    <string name="Lamp1">Lamp 1</string>
+    <string name="Light1">Light 1</string>
+    <string name="Tv1">Tv 1</string>
+    <string name="Fridge">Fridge 1</string>
+    <string name="Comp1">Computer 1</string>
+    <string name="hintUN">Username</string>
+    <string name="hintPwd">Password</string>
+    <string name="hintCurrPwd">Current Password</string>
+    <string name="hintNewPwd">New Password</string>
+    <string name="hintConfNewPwd">Confirm New Password</string>
+    <string name="tvcd1">0x0012</string>
+    <string name="tvcd2">0x1009</string>
+    <string name="tvcd3">0x7638</string>
+    <string name="tvcd4">0x4303</string>
+    <string name="tvcd5">0x9022</string>
+    <string name="tvcd6">0x2451</string>
+    <string name="tvcd7">0x0920</string>
+    <string name="tvcd8">0x6709</string>
+    <string name="tvcd9">0x6723</string>
+    <string name="btnSaveMapping">Save</string>
+
+</resources>

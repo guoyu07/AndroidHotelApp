@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toastwarningLLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_round_corners"
+    android:orientation="horizontal" 
+    
+     android:padding="20px"
+    >
+
+    <ImageView
+        android:id="@+id/imgWarning"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/warning_redball"
+         />
+
+    <TextView
+        android:id="@+id/tvWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10px"
+        android:paddingTop="3px"
+        android:text="Please Sign out from the application for secuity reasons"
+        android:textColor="#DF01D7"
+        android:textSize="20px"
+       
+        />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="left">#2EFE2E</color>
+    <color name="middle">#2EFEF7</color>
+    <color name="right">#2E9AFE</color>
+    <color name="MediumPurple1">#9E7BFF</color>
+    <color name="Violet">#8D38C9</color>
+    <color name="SteelBlue">#4863A0</color>
+    <color name="SkyBlue3">#659EC7</color>
+    <color name="MediumOrchid1">#D462FF</color>
+
+</resources>

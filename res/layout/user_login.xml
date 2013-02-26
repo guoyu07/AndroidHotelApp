@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_rootLogin"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+	
+    <EditText
+        android:id="@+id/namep1"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dip"
+        android:hint="@string/hintUN" />
+
+    <EditText
+        android:id="@+id/namep2"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namep1"
+        android:layout_marginRight="10dp"
+        android:inputType="textPassword"
+        android:hint="@string/hintPwd" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namep2"
+        android:text="Login" />
+        <Button
+        android:id="@+id/cancel"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namep2"
+        android:layout_toRightOf="@id/ok"
+        android:text="Cancel" />
+
+</RelativeLayout>

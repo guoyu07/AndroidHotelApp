@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+-->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tbImglyt"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="250px" >
+
+    <TableRow
+        android:id="@+id/ImgLytTr21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/imgtrmargin" >
+            <ImageButton
+            android:id="@+id/imgBtnComputer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/imgmargin"
+            android:src="@drawable/dvd3" />
+        <ImageButton
+            android:id="@+id/imgBtnAC2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/imgmargin"
+            android:src="@drawable/lamp4" />
+
+        <ImageButton
+            android:id="@+id/imgBtnCDPlayer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/imgmargin"
+            android:src="@drawable/cdplayer4" />
+
+    
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/ImgLytTr22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/imgtrmargin" >
+
+        <ImageButton
+            android:id="@+id/imgBtnFan2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/imgmargin"
+            android:src="@drawable/dvd4" />
+
+        <ImageButton
+            android:id="@+id/imgBtnFridge2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/imgmargin"
+            android:src="@drawable/light2" />
+
+        <ImageButton
+            android:id="@+id/imgBtnLamp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/imgmargin"
+            android:src="@drawable/lamp3" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/ImgLytTr23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/imgtrmargin" >
+
+        <ImageButton
+            android:id="@+id/imgBtnLight2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/imgmargin"
+            android:src="@drawable/light4" />
+
+        <ImageButton
+            android:id="@+id/imgBtnTV2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/imgmargin"
+            android:src="@drawable/tv2" />
+
+        <ImageButton
+            android:id="@+id/imgBtnWashingMachine2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/imgmargin"
+            android:src="@drawable/wash2" />
+    </TableRow>
+
+</TableLayout> <!-- </RelativeLayout> -->

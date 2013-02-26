@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+-->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tbImglyt"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="250px" >
+
+    <TableRow
+        android:id="@+id/ImgLytTr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/imgtrmargin" >
+
+        <ImageButton
+            android:id="@+id/imgBtnAC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/imgmargin"
+            android:src="@drawable/cdplayer1" />
+
+        <ImageButton
+            android:id="@+id/imgBtnCDPlayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/imgmargin"
+            android:src="@drawable/cdplayer4" />
+
+        <ImageButton
+            android:id="@+id/imgBtnComputer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/imgmargin"
+            android:src="@drawable/light3" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/ImgLytTr2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/imgtrmargin" >
+
+        <ImageButton
+            android:id="@+id/imgBtnFan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/imgmargin"
+            android:src="@drawable/cdplayer3"/>
+
+        <ImageButton
+            android:id="@+id/imgBtnFridge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/imgmargin"
+            android:src="@drawable/fridge" />
+
+        <ImageButton
+            android:id="@+id/imgBtnLamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/imgmargin"
+            android:src="@drawable/lamp1" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/ImgLytTr3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/imgtrmargin" >
+
+        <ImageButton
+            android:id="@+id/imgBtnLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/imgmargin"
+            android:src="@drawable/light1" />
+
+        <ImageButton
+            android:id="@+id/imgBtnTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/imgmargin"
+            android:src="@drawable/tv1" />
+
+        <ImageButton
+            android:id="@+id/imgBtnWashingMachine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/imgmargin"
+            android:src="@drawable/cdplayer2" />
+    </TableRow>
+
+</TableLayout> <!-- </RelativeLayout> -->
